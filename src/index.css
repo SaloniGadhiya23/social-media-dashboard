@@ -1,0 +1,85 @@
+body {
+  background: #0a0f24;
+  color: white;
+  font-family: poppins, sans-serif;
+}
+
+.app {
+  padding: 30px;
+}
+
+.nav {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: -20px;
+}
+.nav .pro {
+  background: linear-gradient(45deg, #00e6ff, #ff00ff);
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.tabs {
+  display:flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+.tabs button {
+  padding: 10px 20px;
+  border: 0;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  transition: 0.3s;
+}
+.tabs .active {
+  background: #00f0ff;
+  color: #000;
+  transform: scale(1.1);
+}
+
+.metrics-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.metric-card {
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.08);
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+.metric-card:hover {
+  transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 0 25px#00eaff;
+}
+.metric-card p {
+  font-size: 28px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #00e6ff, #ff00ff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+.chart-box {
+  padding: 20px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(25px);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+  transition: 0.3s;
+}
+.chart-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 35px rgba(0, 255, 255, 0.6);
+}
