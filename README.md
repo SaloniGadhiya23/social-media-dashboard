@@ -1,7 +1,7 @@
 # 📊 Social Media Analytics Dashboard
 
-A modern responsive dashboard for analyzing and comparing social media platform performance.  
-Built using **React + Vite**, featuring interactive charts, demographic insights, growth metrics & platform comparisons — all dynamically rendered from structured data.
+A modern responsive dashboard for analyzing & comparing social media performance.  
+Built with **React + Vite**, featuring interactive charts, platform-wise growth insights, and dynamic UI rendering through data-driven components.
 
 ---
 
@@ -9,12 +9,10 @@ Built using **React + Vite**, featuring interactive charts, demographic insights
 
 | Feature | Description |
 |--------|-------------|
-| 📈 Growth & Engagement Charts | Line-charts showing platform performance over time |
-| 🧑‍🤝‍🧑 Audience Demographics | Gender-based pie-chart visualization |
-| 🔄 Platform Comparison | Compare analytics of any two platforms side-by-side |
-| 💡 Multi-Platform Support | Instagram, Facebook, Twitter, YouTube, TikTok, LinkedIn |
-| 🎨 Modern UI | Beautiful card-based layout with responsive design |
-| ⚙ Dynamic Data Mapping | All values controlled via JS configuration files |
+| 📈 Growth & Engagement Charts | Track and visualize follower growth & interactions over time |
+| 💡 Multi-Platform Support | Currently supports **Instagram, Facebook, Twitter, YouTube** |
+| 🎨 Modern User Interface | Clean visual dashboard with stats cards & charts |
+| ⚙ Dynamic Data Mapping | All charts update using JS configuration files — easy to extend |
 
 ---
 
@@ -22,8 +20,10 @@ Built using **React + Vite**, featuring interactive charts, demographic insights
 
 | Category | Tools |
 |--------|-------|
-| Frontend Framework | **React (Vite)** |
-| Chart Library | **Recharts** |
-| Styling | **CSS / Tailwind Optional** |
+| Framework | **React + Vite** |
+| Charts | **Recharts** (Line, Area, Pie, Bar supported) |
+| Styling | **CSS** |
 | Package Manager | **npm** |
+
+---
 
